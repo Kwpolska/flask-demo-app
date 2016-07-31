@@ -11,6 +11,5 @@ app = Flask(__name__)
 @app.route("/")
 def index():
     return ('<!DOCTYPE html>\n'
-            '<meta charset="utf-8">\n'
-            '<title>Hello from Flask!</title>\n'
-            '<h1>Hello from Flask!</h1><img src="/static/hello.png">\n')
+            '<meta charset="utf-8">\n<title>Hello from Flask!</title>\n'
+            '<h1>Hello from Flask!</h1>\n<img src="/static/hello.png">\n')
