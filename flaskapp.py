@@ -1,8 +1,10 @@
+# -*- coding: utf-8 -*-
 # A simple Flask demo app that demonstrates one basic route, favicons,
 # and static files. Written for my tutorial,
 # Deploying Python Web Applications with nginx and uWSGI Emperor.
 # <https://go.chriswarrick.com/pyweb>
-# Licensed under the WTFPL.
+# Copyright © 2016-2017, Chris Warrick.  All rights reserved.
+# Licensed under the 2-clause BSD license.
 
 from flask import Flask
 app = Flask(__name__)
