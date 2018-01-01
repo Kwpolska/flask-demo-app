@@ -3,7 +3,7 @@
 # and static files. Written for my tutorial,
 # Deploying Python Web Applications with nginx and uWSGI Emperor.
 # <https://go.chriswarrick.com/pyweb>
-# Copyright © 2016-2017, Chris Warrick.  All rights reserved.
+# Copyright © 2016-2018, Chris Warrick.  All rights reserved.
 # Licensed under the 2-clause BSD license.
 
 from flask import Flask
