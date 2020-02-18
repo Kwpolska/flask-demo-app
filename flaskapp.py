@@ -3,15 +3,22 @@
 # and static files. Written for my tutorial,
 # Deploying Python Web Applications with nginx and uWSGI Emperor.
 # <https://go.chriswarrick.com/pyweb>
-# Copyright © 2016-2019, Chris Warrick.  All rights reserved.
+# Copyright © 2016-2020, Chris Warrick.  All rights reserved.
 # Licensed under the 2-clause BSD license.
 
 from flask import Flask
+
 app = Flask(__name__)
 
 
 @app.route("/")
 def index():
-    return ('<!DOCTYPE html>\n'
-            '<meta charset="utf-8">\n<title>Hello from Flask!</title>\n'
-            '<h1>Hello from Flask!</h1>\n<img src="/static/hello.png">\n')
+    return (
+        '<!DOCTYPE html>\n'
+        '<meta charset="utf-8">\n<title>Hello from Flask!</title>\n'
+        '<h1>Hello from Flask!</h1>\n<img src="/static/hello.png">\n'
+    )
+
+
+if __name__ == "__main__":
+    print("Run with `flask` or a WSGI server!")
